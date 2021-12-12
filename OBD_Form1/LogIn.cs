@@ -40,8 +40,7 @@ namespace HotelAdmin
                 matrix[i, 3] = dt.Rows[i].Field<string>("Password");
 
                 comboBox1.Items.Add(matrix[i, 1]);
-            }
-            //label3.Text = matrix[0, 1];
+            }           
             comboBox1.Text = matrix[0, 1];
         }
 
